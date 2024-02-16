@@ -57,7 +57,7 @@ img{
 
 
 .msg-container{
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 #msg{
@@ -69,4 +69,25 @@ img{
     border-radius: 1rem;
     
    
+}
+
+.reset-container{
+    margin-top: 3rem;
+}
+
+#Reset{
+    color: #081b31;
+    margin-top: 3rem;
+    background-color: #fff;
+    font-size: 1.5rem;
+    display: inline;
+    padding: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 8px;
+    line-height: 1rem;
+    font-weight: 580;
+}
+#Reset:hover{
+    cursor: pointer;
 }

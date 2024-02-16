@@ -6,9 +6,24 @@ let computerScore=0;
 
 const choices = document.querySelectorAll(".choice");
 const msg = document.getElementById("msg");
+const resetBtn = document.querySelector("#Reset");
 
 const userScorePara = document.querySelector("#User-score");
 const compScorePara = document.querySelector("#comp-score");
+
+resetBtn.addEventListener("click",()=>{         //Added reset button
+    reset();
+});
+
+const reset=()=>{
+    userScore=0;
+    computerScore=0;
+    userScorePara.innerText=userScore;
+    compScorePara.innerText=computerScore;
+    msg.innerText="Play your move";
+    msg.style.backgroundColor='#081b31';
+};
+
 
 //function1
 
